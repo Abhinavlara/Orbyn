@@ -73,7 +73,7 @@ export default function DestinationsPage() {
           {destinations.map((d, i) => (
             <motion.div
               key={i}
-              initial={{ opacity: 0, y: 30 }}3
+              initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
